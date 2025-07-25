@@ -27,7 +27,7 @@ const projects = [
       "DailyFlow is a clean and intuitive task management app built with the MERN stack. Includes real-time updates, auth, and a responsive UI.",
     image: dailyFlow,
     code: "https://github.com/Aytac20/DailyFlow",
-    live: "https://portfolio-1-dx8bopyhk-aytacs-projects-a320664f.vercel.app/",
+    live: "https://dailyflow-1.onrender.com",
   },
 ];
 
