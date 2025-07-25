@@ -47,16 +47,21 @@ const skills = [
 const Skills = () => {
   return (
     <div id="skills" className="wrapper min-h-[100vh] text-[#4b4a46]">
-      <h3 className="text-xl  mb-8 text-center  pt-[8rem]">
-        These are the primary technologies and development tools I have studied
-        and implemented across various projects, demonstrating proficiency in
-        both frontend and backend development
+      <h3 className="text-[1.5rem]  text-center pt-[8rem] font-bold">
+        What My programming Skills included?
+      </h3>
+      <h3 className="text-[1rem]  my-8 text-center text-[#4b4a467a] ">
+        I develop simple,intuitive and responsive user interface that helps
+        users get things done with less effort and time with those technologies
       </h3>
 
-      <ul className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-12 justify-center">
-        {skills.map((skill) => (
-          <span key={skill.name} className="flex w-full justify-center">
-            <li className="flex flex-col justify-between items-center h-[6rem] w-[6rem] gap-2">
+      <ul className="w-full flex justify-center">
+        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-12">
+          {skills.map((skill) => (
+            <li
+              key={skill.name}
+              className="flex flex-col justify-center items-center h-[6rem] w-[6rem] bg-gray-100 rounded-2xl"
+            >
               <Image
                 src={skill.icon}
                 alt={skill.name}
@@ -65,10 +70,9 @@ const Skills = () => {
                 quality={100}
                 className="object-contain"
               />
-              <span className="text-sm text-center">{skill.name}</span>
             </li>
-          </span>
-        ))}
+          ))}
+        </div>
       </ul>
     </div>
   );
