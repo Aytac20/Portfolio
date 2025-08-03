@@ -77,7 +77,7 @@ const Menu = () => {
             className="hover:bg-[#f3eadd] transition-all duration-300 ease-in-out rounded-all hover:text-[#4b4a46] hover:shadow-2xl"
           >
             <Link
-              href="/assets/Aytac_Balayeva_Resume.pdf"
+              href="/assets/Aytac_Balayeva_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
