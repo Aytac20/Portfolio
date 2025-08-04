@@ -45,7 +45,7 @@ const About = () => {
           </p>
         </div>
         <a
-          href="/assets/Aytac_Balayeva_Resume.pdf"
+          href="/assets/Aytac_Balayeva_CV.pdf"
           download="Aytac_Balayeva_CV.pdf"
           className="inline-block px-4 py-2 bg-[#56c993] text-white rounded hover:bg-[#4baa7e] transition duration-200 w-full sm:w-[10rem] text-center border-[#46a779] border"
         >
